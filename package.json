@@ -1,6 +1,6 @@
 {
-  "name": "nanoargs",
-  "description": "Simple Typescript args parser.",
+  "name": "cliopts",
+  "description": "Simple Typescript CLI options parser.",
   "author": {
     "name": "Chris Ackerman",
     "email": "chris@topher.land"

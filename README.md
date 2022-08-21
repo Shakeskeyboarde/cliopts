@@ -1,10 +1,10 @@
-# nanoargs
+# cliopts
 
-Simple Typescript args parser.
+Simple Typescript CLI options parser.
 
 ## Usage
 
-Parse the process arguments into options.
+Parse process arguments into options.
 
 ```ts
 const options = parseArgs(process.argv.slice(2), {
@@ -62,7 +62,7 @@ const options = parseArgs(['--baz=1'], {
 });
 ```
 
-Any arguments following `--` are treated as positional options, even if they start with hyphens.
+All arguments following `--` are treated as positional (unnamed) options, even if they start with hyphens.
 
 ```ts
 const options = parseArgs(['--foo', '--', '--bar'], {
